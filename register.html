@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<style>
+    input[type="radio"]{
+  margin-right: 4px;
+  
+}
+input[type="email"]{
+  width:300px;
+}
+input[type="password"]{
+  width:300px;
+}
+input[type="select"]{
+  width:300px;
+}
+input[type="number"]{
+  width: 300px;
+}
+input[type="name"]{
+  width: 300px;
+}
+input[type="submit"]{
+  background-color:#f4511e;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 62px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+
+}
+.glyphicon.glyphicon-user{
+  position: relative;
+  top:32.5px;
+  right: 74px;
+  
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+    <div class="jumbotron">
+        <div class="container">
+          <h2><span style="font-weight: 900;">Register</span> in seconds</h2>
+          <form>
+            <div class="form-group">
+              <label for="email">Full Name:</label>
+          
+
+             <input type="name" class="form-control" id="email" placeholder="Enter name" name="email" required>
+             </div>
+
+            <div class="form-group">
+              <label for="email">Email Address:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
+
+            <div class="form-group">
+              <label for="country">Country of Residence:</label>
+              <select value="country" style="width:300px" class="form-control" id="country" placeholder="Enter email" name="country">
+                <option value="">Please select country</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Spain">Spain</option>
+                <option value="libya">Libya</option>
+                <option value="Togo">Togo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+              <label for="number">Mobile:</label>
+              <input type="number" class="form-control" id="number" placeholder="country..." name="number">
+            </div>
+              
+            <div class="form-group">
+              <input type="radio" name="selection" value="Live Account" required>Live Account</input>
+               <input type="radio" name="selection" value="Demo Account" required>Demo Account</input>
+            </div>
+
+            <div class="checkbox">
+              <label><input type="checkbox" name="remember">I confirm that I am 18 years of age or older and I agree to the G&Cs.</label>
+            </div>
+            <input type="submit" value="Register Now">
+          </form>
+        </div>
+</body>
+</html>
